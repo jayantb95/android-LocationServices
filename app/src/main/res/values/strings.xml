@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Google Location Services</string>
+
+    <string name="txt_location">Location:</string>
+    <string name="txt_longitude">Longitude:</string>
+    <string name="txt_latitude">Latitude:</string>
+    <string name="txt_time">Time:</string>
+    <string name="txt_bearing">Bearing:</string>
+
+    <string name="title_location_permission">Access location</string>
+    <string name="message_location_permission">Your location is needed to provide you with better user experience.</string>
+    <string name="text_positive_button">Ok</string>
+</resources>
