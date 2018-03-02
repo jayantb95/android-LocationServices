@@ -27,7 +27,6 @@ public class MainActivity extends AppCompatActivity implements
 
     private static final String TAG = "MainActivity";
     private static final int REQUEST_LOCATION = 0;
-
     private TextView txtLocation;
     private TextView txtLongitude;
     private TextView txtLatitude;
@@ -79,7 +78,7 @@ public class MainActivity extends AppCompatActivity implements
         }
         mLastLocation = LocationServices.FusedLocationApi.getLastLocation(mGoogleApiClient);
         if (mLastLocation != null) {
-            txtLocation.setText(mLastLocation.toString());
+            txtLocation.setText(String.valueOf(mLastLocation));
             txtLatitude.setText(String.valueOf(mLastLocation.getLatitude()));
             txtLongitude.setText(String.valueOf(mLastLocation.getLongitude()));
         }
